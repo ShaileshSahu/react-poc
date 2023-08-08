@@ -1,0 +1,33 @@
+1. What is react component?
+
+It's basically the same as small piece of code having the declarative flow.
+
+2. What is wrong with this code?
+
+function myComponent() {
+    return (
+        <small>I'm tiny text!!</small>
+    )
+}
+
+It's should be namedas MyComponent otherwise react will treat
+as a simple function not component.
+
+3. what's wrong with this code?
+function Header() {
+    return (
+        <header>
+        <nav>
+        <img src=''/>
+        </nav>
+        </header>
+    )
+}
+
+ReactDOM.render(Header(), document.getElementById("root"));
+
+
+
+It shoulde be <Header/> insted of Header()!!
+
+

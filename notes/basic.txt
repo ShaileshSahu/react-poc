@@ -1,0 +1,14 @@
+1. Why do we have to import react in our files ?
+React is what defined JSX (Javscript extended).
+
+2. If I were to console.log and index.js, what would showup?
+A javascript object
+
+3. JSX should be wrapped in a single parent.
+
+4. what does it mean for something to be declarative instead of imperative?
+    = declarative means I can tell the computer what to do and expect it to hanbdle the details. Imperatvie
+    means I need to tell it how to do each step.
+
+5. What does it mean for something to be composable?
+we have to small pieces that we can put and make it larger and bigger.
