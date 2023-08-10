@@ -1,5 +1,5 @@
 body {
-  margin:0
+  margin:0;
 }
 
 .nav {
@@ -33,16 +33,24 @@ body {
   margin-top:0;
 }
 
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
 .card {
   width:175px;
   display: flex;
   flex-direction: column;
   padding:20px;
   font-size:14px;
+  position:relative;
+
 }
 
 .card--image {
-  width:100%;
+  width:100px;
+  height: 150px;
   border-radius: 9px;
 }
 
@@ -50,6 +58,14 @@ body {
   display: flex;
   align-items: center;
   margin-top: 10px;
+}
+
+.card--title{
+  margin-top:10px;
+}
+
+.card--description{
+  margin-top:-4px;
 }
 
 .card--star {
@@ -63,4 +79,14 @@ body {
 
 .bold {
   font-weight:bold;
+}
+
+.card--badge {
+  font-weight: 600;
+  position:absolute;
+  top:30px;
+  left:26px;
+  background-color: white;
+  border-radius: 2px;
+  padding:5px 7px;
 }

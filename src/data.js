@@ -1,0 +1,50 @@
+export default [{
+    id:1,
+    status: 'Sold out',
+    img: 'https://cdn.bleacherreport.net/images_root/slides/photos/001/032/855/72462699_original.jpg?1308851343',
+    rating: 4.6,
+    reviews: 6,
+    location: 'USA',
+    title: 'Life Lesson with kate',
+    description: 'Life Lesson with kate',
+    price: '$135',
+    slots:0,
+ 
+},{
+    id:2,
+    status: 'Sold out',
+    img: 'https://images.news18.com/ibnlive/uploads/2021/08/1627965837_pv-sindhu-new-ap-medal-1600-1200x800.jpg?impolicy=website&width=510&height=356',
+    rating: 4.6,
+    reviews: 6,
+    location: 'India',
+    title: 'Life Lesson with kate',
+    description: 'Life Lesson with kate',
+    price: '$135',
+    slots:12,
+
+  },
+  {
+    id:3,
+    status: 'Online',
+    img: 'https://static.toiimg.com/thumb/msid-88637547,imgsize-36806,width-400,resizemode-4/88637547.jpg',
+    rating: 4.6,
+    reviews: 6,
+    location: 'Australia',
+    title: 'Life Lesson with kate',
+    description: 'Life Lesson with kate',
+    price: '$135',
+    slots:0,
+
+  },{
+    id:4,
+    status: 'Sold out',
+    img: 'https://media.gettyimages.com/id/3223635/photo/indian-boxer-jai-bhagwan-lands-a-pun.webp?s=2048x2048&w=gi&k=20&c=xmDQGK2mzOjqOGe1b0HBD5j8LQtzsZP9fNPx8tIdqDc=',
+    rating: 4.6,
+    reviews: 6,
+    location: 'Sri Lanka',
+    title: 'Life Lesson with kate',
+    description: 'Life Lesson with kate',
+    price: '$135',
+    slots:10,
+
+  }];
