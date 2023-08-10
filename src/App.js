@@ -1,16 +1,16 @@
 import './App.css';
-import Header from './Header';
-import MainContent from './MainContent';
-import Footer from './Footer';
-
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Card from './components/Card';
 
 
 
 function Page() {
 return <div>      
-    <Header/>
-    <MainContent/>
-    <Footer/> 
+    <Navbar/>
+    <Hero/>
+    <Card/>
+    
 </div>;
 }
 function App() {

@@ -1,0 +1,12 @@
+1. what do props helps us accomplish?
+Make more components usuable and reusable?.
+
+
+2. How do you pass a props into a component?
+<MyAwesomeHeader title=""/>
+
+3. Can I pass a custom porp )e.g 'blal = {true}) to native dom lements?
+No, becuase JSX we use to desvibe native DOM will be turned into real dom elements by
+react. And real dom element only have the properties/attrivutes speicifed in the
+html speicifeditor.
+
