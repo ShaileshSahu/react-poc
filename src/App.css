@@ -1,45 +1,47 @@
-body {
-  margin:0;
-  min-width: 300px;
-}
 
-.nav {
-  height: 40px;
+
+.header{
   display: flex;
-  padding: 20px 26px;
-  justify-content: center;
-  box-shadow: 0px 2.9px 7.4px rgba(0, 0, 0, 0.4);
-  background-color: tomato;
-}
-
-.nav > h3 {
-  font-size: 20px;
-  font-weight: 600;
-  position: relative;
-  left:10px;
-  top:-30%;  
+  align-items: center;
+  height: 60px;
+  padding:10px;
+  background: linear-gradient(90deg,#682280 1.18%, #A626D3 100%);
+  padding: 20px;
   color:white;
 }
 
-.nav > img {
-  max-width: 120px;
+
+.header > img {
+  width:100px;
+  margin-right: 6px;
 }
 
-.card > img {
-  max-width: 150px;
-}
-.card {
-  margin-top:5%;
-  display: flex;
-  margin:10%;
-  min-width: 300px !important;
-  padding: 0px 10px;
-  justify-content: center;
-  height: 300px;
-  border-bottom: 1px;
-}
-
-.card--stats {
-  padding:10px 40px;
+.header > div {
+  margin-right: 100px;
   flex-wrap: wrap;
+}
+
+
+.form {
+  margin: 20px;
+  margin-top: 40px;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap:17px;
+}
+
+.form--input { 
+  border-radius: 5px;
+  border:1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form--button {
+  grid-column: 1/-1;
+  font-family: "Karla", sans-serif;
+  border-radius:5px;
+  color:white;
+  border:none;
+  cursor: pointer;
+  background: linear-gradient(90deg,#451555 1.18%, #7a159e 100%);
 }

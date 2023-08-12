@@ -1,14 +1,10 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Card from './components/Card';
-import cards from './data';
-
-
+import Header from './components/Header';
+import Meme from './components/Meme';
 function Page() {
 return <div>      
-    <Navbar/>
-    <Card cards={cards}/>
-    
+    <Header/>
+    <Meme/>
 </div>;
 }
 function App() {
