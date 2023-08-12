@@ -2,29 +2,25 @@ import cardImage from '../images/ankur-warikoo.png';
 import star from '../images/star.png';
 
 function Card(props) {
-    const {slots,rating,status,img,reviews,description,price,location}  = props.card;
-    return(
-        <div className="card">
-                    {slots === 0 &&<div className='card--badge'>{status}</div>}
-                    <img src={img} className="card--image"/>
-                    <div className="card--stats">
-                    <img className="card--star" src={star}/> 
-                    <span>{rating}</span>
-                    <span className='gray'>({reviews}) . </span>
-                    <span className='gray'>{location}</span>
-                    </div>
-                    <p className='card--title'>{description}</p>
-                    <p className='card--description'><span className="bold">From {price} </span>/ person</p>
-        </div>);
+    return (<section className='card'>
+        <img src={cardImage}/>
+        <div className='card--stats'>
+            <h3><icon>L</icon> Japan</h3>
+            <h2>Mount Fuji</h2>
+            <h5>12 Jun,2021- 24 Jan, 2021</h5>
+            <p>
+            Japan’s Mt. Fuji is an active volcano about 100 kilometers southwest of Tokyo. Commonly called “Fuji-san,” it’s the country’s tallest peak, at 3,776 meters.
+            </p>
+        </div>
+    </section>)
 }
 
 export default function Cards(props) {
     
-    return ( <section className='cards'>
-        {
-        props.cards.map(card => {
-                return(<Card card={card} />)
-        })
-        }
-    </section>);
+   return (<>
+    <Card/>
+    <Card/>
+    <Card/>
+    </>
+    )
 }
